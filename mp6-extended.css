@@ -1,7 +1,11 @@
 /** Geras Edits **/
 
+/*Little Fixes*/
+.plugin-install-php {margin-top: 0px !important; padding-bottom: 0px !important;}
+
+
 /*Main background*/
-html {background-image: url('/wp-content/uploads/2013/08/mooning.png');}
+html {background-image: url('main_bg.png');}
 
 /*Change Page background and wrap*/
 .wrap {background-color: #fff; margin: 20px;  padding: 20px; 
@@ -10,10 +14,11 @@ html {background-image: url('/wp-content/uploads/2013/08/mooning.png');}
 box-shadow:         0px 6px 27px rgba(50, 50, 50, 0.49);
 }
 
+/*Restyle Admin Bar*/
 #adminmenuback, #adminmenuwrap {background: transparent;}
 #wpadminbar .ab-icon {color: #fff;}
 #screen-meta-links .screen-meta-toggle {position: relative; top: 39px !important; left: -14px !important;}
-#wpadminbar {background: #465284; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMVEVOaaJDYJxCX5xBXptIZJ9MZ6E/XJpFYZ1KZqA9W5lGYp5HY55MaKFJZZ9LZqBEYZ1NaaJNaKJNaKFAXZtAXZpLZ6E+XJo+W5lJZaA9Wpk8Wpk8Wpg8WZg7WZj2xcGWAAAANElEQVR42lWGSQoAIBDDHCjo0f8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==');}
+#wpadminbar {background: #465284; background-image: url('header_bg.png');}
 #wp-admin-bar-wp-logo {display: none !important;}
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
@@ -25,42 +30,6 @@ box-shadow:         0px 6px 27px rgba(50, 50, 50, 0.49);
 }
 
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow div {background: #465284;}
-
-.wrap h2 {
-color: #fff !important;
-margin-left: -20px !important;
-margin-right: -20px !important;
-padding-left: 24px !important;
-margin-top: -20px !important;
-margin-bottom: 15px !important;
-padding-bottom: 19px !important;
-padding-top: 20px !important;¸¸¸
-background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBM…/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==') !important;
-background-position: 12px 30px;
-background-color: #4d68a2;
-background-repeat: repeat-x;
-}
-
-#screen-options-link-wrap, #contextual-help-link-wrap { background: transparent !important; -webkit-box-shadow: none;
-box-shadow: none;}
-#screen-meta-links a {font-size: 11px !important; color: #fff;}
-#screen-meta-links a:hover {color: #e2e2e2;}
-
-
-/*Remove update Nage*/
-.update-nag {display: none;}
-
-/*Second Publish Button*/
-.secondpub {float: right; position: relative; top: -71px; left: -8px;}
-
-
-/*Side Menu Style*/
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow div {
-background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMVEVOaaJDYJxCX5xBXptIZJ9MZ6E/XJpFYZ1KZqA9W5lGYp5HY55MaKFJZZ9LZqBEYZ1NaaJNaKJNaKFAXZtAXZpLZ6E+XJo+W5lJZaA9Wpk8Wpk8Wpg8WZg7WZj2xcGWAAAANElEQVR42lWGSQoAIBDDHCjo0f8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==');
-font-size: 18px;
-}
-
-/*Editing Admin Bar*/
 #moby6-toggle a:before {color: #fff !important;}
 #wpadminbar #wp-admin-bar-my-sites > .ab-item, #wpadminbar #wp-admin-bar-site-name > .ab-item {color: #fff !important;}
 
@@ -74,6 +43,42 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {border-right-color: #ddd;}
 
 .ab-submenu {display: none;}
+
+/*Change Main Heading on most of the pages*/
+#wpbody h2 {
+color: #fff !important;
+margin-left: -20px !important;
+margin-right: -20px !important;
+padding-left: 24px !important;
+margin-top: -20px !important;
+margin-bottom: 15px !important;
+padding-bottom: 19px !important;
+padding-top: 20px !important;¸¸¸
+background-image: url('header_bg.png') !important;
+background-position: 12px 30px;
+background-color: #4d68a2;
+background-repeat: repeat-x;
+}
+
+/*Restyle Help text in the top right*/
+#screen-options-link-wrap, #contextual-help-link-wrap { background: transparent !important; -webkit-box-shadow: none; box-shadow: none; border: 0px !important;}
+#screen-meta-links a {font-size: 11px !important; color: #fff;}
+#screen-meta-links a:hover {color: #e2e2e2;}
+
+
+/*Remove update Nage*/
+#update-nag {display: none !important;}
+
+/*Second Publish Button*/
+.secondpub {float: right; position: relative; top: -71px; left: -8px;}
+
+
+/*Side Menu Style*/
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow div {
+background-image: url('header_bg.png');
+font-size: 18px;
+}
+
 
 /*Editing posts page to make it more simple*/
 thead {display: none;}

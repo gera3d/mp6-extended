@@ -103,6 +103,10 @@ function fb_move_admin_bar() {
         bottom: 28px;
     }
     #moby6-toggle {bottom: 7px !important; top: inherit !important;}
+
+    #wp-admin-bar ul li ul {
+bottom:25px;
+}
     </style>';
 }
 // on backend area
